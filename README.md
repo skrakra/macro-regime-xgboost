@@ -1,3 +1,7 @@
+## Overview
+
+This project uses a **Histogram-based Gradient Boosting** model to classify global equity markets into **bull** and **bear** regimes based on macroeconomic and market indicators. The pipeline includes median imputation, feature selection via permutation importance, and **Optuna-based hyperparameter tuning** with explicit overfitting control. Model performance is evaluated using stratified cross-validation to ensure robust out-of-sample results.
+
 ## Requirements
 
 The project depends only on a few core Python packages:
